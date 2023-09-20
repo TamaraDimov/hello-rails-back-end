@@ -9,6 +9,10 @@ Bundler.require(*Rails.groups)
 module HelloRailsBackEnd
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    config.autoloader = :classic
+    # config.autoload_paths << "#{Rails.root}/app/controllers/api/v1"
+    config.api_only = true
+
     config.load_defaults 7.0
 
     # Configuration for the application, engines, and railties goes here.
@@ -25,3 +29,9 @@ module HelloRailsBackEnd
     config.api_only = true
   end
 end
+# config.middleware.insert_before 0, Rack::Cors do
+#   allow do
+#     origins 'http://127.0.0.1:3000/'  # Replace with the actual domain of your React app
+#     resource '*', headers: :any, methods: [:get, :post, :put, :patch, :delete, :options]
+#   end
+# end
