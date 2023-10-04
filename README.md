@@ -75,10 +75,12 @@ Hello World\_ is a simple web application that has api which returns a random gr
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need the following install in your PC:
 
 ```sh
- gem install bundler
+ - Node
+ - IDE
+ - Browser
 ```
 
 ### Setup
