@@ -93,11 +93,6 @@ Clone this repository to your desired folder:
   git clone https://github.com/TamaraDimov/hello-rails-back-end.git
 ```
 
-```sh
-  cd my-folder
-  git clone https://github.com/TamaraDimov/hello-rails-front-end.git
-```
-
 ### Install
 
 Install this project with:
@@ -172,6 +167,6 @@ If you like this project, please give it a star ⭐.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
