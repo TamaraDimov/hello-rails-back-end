@@ -33,6 +33,7 @@
 # 📖 Hello World <a name="about-project"></a>
 
 Hello World\_ is a simple web application that has api which returns a random greetings designed using RoR + React.
+Link from the back end project : https://github.com/TamaraDimov/hello-rails-front-end
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,9 +79,9 @@ Hello World\_ is a simple web application that has api which returns a random gr
 In order to run this project you need the following install in your PC:
 
 ```sh
- - Node
- - IDE
- - Browser
+ - Ruby
+ - Ruby on rails
+ - PostgreSQL
 ```
 
 ### Setup
