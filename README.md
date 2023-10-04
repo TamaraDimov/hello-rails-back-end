@@ -30,10 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 i-budget <a name="about-project"></a>
+# 📖 Hello World <a name="about-project"></a>
 
 Hello World\_ is a simple web application that has api which returns a random greetings designed using RoR + React.
-<img src="./app/assets/images/schema.png" alt="UML class diagram"/>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -91,12 +90,17 @@ Clone this repository to your desired folder:
   git clone https://github.com/TamaraDimov/hello-rails-back-end.git
 ```
 
+```sh
+  cd my-folder
+  git clone https://github.com/TamaraDimov/hello-rails-front-end.git
+```
+
 ### Install
 
 Install this project with:
 
 ```sh
-  cd i-hello-rails-back-end
+  cd hello-rails-back-end
   bundle install
 ```
 
